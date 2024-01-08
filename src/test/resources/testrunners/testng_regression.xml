@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AdNabu TestStore Regression Test Suite" verbose="4">
+<!--       thread-count="2" parallel="tests">-->
+
+
+<!--    <test name="AdNabu TestStore Home Page Test">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="browserversion" value="91.0" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.adnabuteststore.test.HomePageTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="AdNabu TestStore Home Page Test">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="browserversion" value="89.0" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.adnabuteststore.test.HomePageTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="AdNabu TestStore Home Page Test">-->
+<!--        &lt;!&ndash;        <parameter name="browser" value="chrome" />&ndash;&gt;-->
+<!--        &lt;!&ndash;        <parameter name="browserversion" value="100.0" />&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="com.qa.adnabuteststore.test.HomePageTest" />-->
+<!--            <class name="com.qa.adnabuteststore.test.ProductPageTest" />-->
+<!--&lt;!&ndash;            <class name="com.qa.adnabuteststore.test.CartPageTest" />&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    1 -->
+    <test name="AdNabu TestStore Home Page Test">
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="browserversion" value="100.0" />-->
+        <classes>
+            <class name="com.qa.adnabuteststore.test.HomePageTest" />
+        </classes>
+    </test>
+
+
+
+    <test name="AdNabu TestStore Product Page Test">
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="browserversion" value="91.0" />-->
+        <classes>
+            <class name="com.qa.adnabuteststore.test.ProductPageTest" />
+        </classes>
+    </test>
+
+<!--    <test name="AdNabu TestStore Product Page Test">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <parameter name="browserversion" value="100.0" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.adnabuteststore.test.ProductPageTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!---->
+<!---->
+<!--    <test name="AdNabu TestStore Cart Page Test">-->
+<!--&lt;!&ndash;        <parameter name="browser" value="chrome" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="browserversion" value="100.0" />&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="com.qa.adnabuteststore.test.CartPageTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+
+</suite>
